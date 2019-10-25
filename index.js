@@ -13,9 +13,7 @@ app.get("/update/user", function(req, res) {
 app.get("/delete/user", function(req, res) {
   res.send("Esto eliminara un usuario");
 });
-app.get("/duplicate/user", function(req, res) {
-    res.send("Esto duplicar un usuario");
-  });
+
 app.listen(3000, function() {
   console.log("listening on port 3000!");
 });
